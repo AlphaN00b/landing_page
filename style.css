@@ -1,30 +1,63 @@
-body {
+ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0px;
     background-color: #1F2937;
+    font-family: "Roboto";
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 200px;
+    padding: 16px 200px;
     font-weight: 700;
 }
 
 .section-one {
     display: flex;
+    justify-content: center;
     margin-top: 64px;
-    padding: 24px 200px;
+    padding: 24px 200px 128px 200px;
     color: #E5E7EB;
 }
 
 .section-two {
-    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9FAF8;
+    padding-top: 32px;
+    padding-bottom: 128px;
+    gap: 48px;
 }
 
+.section-three {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0px;
+}
+
+.section-four {
+    display: flex;
+    background-color: #F9FAF8;
+    padding: 92px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
 ul {
     display: flex;
     list-style: none;
@@ -65,6 +98,7 @@ a {
 .so-left {
     display: flex;
     flex-direction: column;
+    min-width: 543px;
     gap: 16px;
     padding-top: 16px ;
 }
@@ -78,4 +112,63 @@ button {
     color: #F9FAF8;
     font-weight: 700;
     border: none;
+}
+
+.elements {
+    display: flex;
+    gap: 48px;
+}
+
+.txt {
+    width: 160px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.squareimg {
+    max-width: 150px;
+    border-radius: 10px;
+    border: solid #3882F6;
+}
+
+#random-info {
+    font-size: 36px;
+    font-weight: 700 ;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: italic;
+    width: 800px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 800px;
+    padding: 32px 64px;
+    border-radius: 10px;
+}
+
+.sf-left {
+    color: #F9FAF8;
+}
+
+.sf-right {
+    border: solid #F9FAF8;
+    border-radius: 10px;
+    border-width: 2px;
+}
+.sf-mt {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sf-st {
+    font-size: 18px;
+    color: #E5E7EB;
 }
