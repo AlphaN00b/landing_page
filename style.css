@@ -1,10 +1,19 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Roboto-Litalic';
+    src: url('fonts/Roboto-LightItalic.ttf');
+}
+
  body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0px;
     background-color: #1F2937;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -36,10 +45,11 @@
 
 .section-three {
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    padding: 64px 0px;
+    padding: 128px 0px;
 }
 
 .section-four {
@@ -140,10 +150,16 @@ button {
 .quote {
     font-size: 36px;
     color: #1F2937;
-    font-family: italic;
+    font-family: "Roboto-Litalic", sans-serif;
     width: 800px;
 }
 
+.quoted {
+    font-size: 24px;
+    font-family: "roboto", sans-serif;
+    text-align: right;
+    font-weight: 700;
+}
 .container {
     display: flex;
     justify-content: space-between;
